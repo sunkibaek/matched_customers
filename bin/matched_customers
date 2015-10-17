@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './lib/matched_customers'
+
+MatchedCustomers.new('customers.json').output
